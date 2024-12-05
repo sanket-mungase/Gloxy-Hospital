@@ -1,0 +1,301 @@
+	
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.main{
+	height: auto;
+	width: 100%;
+	float: left;
+}
+.top_menu{
+	background-color: #eeeeee;
+}
+.logo{
+	position:absolute;
+	z-index: 9999;
+}
+.social_icon li{
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	margin-left: 20px;
+	display:inline-block;
+	background-color: white;
+	text-align: center;
+	margin-top: 15px;
+}
+.social_icon li i{
+	margin-top:6px;
+}
+.social_icon li:hover{
+	background-color: #ff6313;
+	color: white;
+}
+.main_menu{
+	background-color: #e9dbc8;
+	position: sticky;
+	top: 0%;
+	z-index: 555;
+}
+.navbarmain{
+	position: static;
+	top: 0px;
+}
+.nav-item{
+	margin-left: 20px;
+	height: 100%;
+}
+.nav-link{
+	color: black !important;
+	text-transform: uppercase;
+
+}
+.navbar-nav .active{
+	background-color: #e74c14;
+}
+.navbar-nav .active .nav-link{
+color: white !important;
+}
+.nav-item:hover{
+background-color:#e74c14;
+ }
+ .nav-item:hover a{
+color:white !important; }
+
+@media(max-width:667px){
+	.main_menu{
+background-color:#e74c14;
+
+	}
+}
+.carousel-caption1{
+	width: 40%;
+	float: left;
+	position: absolute;
+top: 100px;
+left: 150px;
+color: white;
+}
+.carousel-caption1 button{
+	background-color:#e74c14;
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	width: 150px;
+}
+@media (max-width:667px){
+	.carousel-item .img{
+		height:450px;
+	}
+	.carousel-caption1{
+		top: 10px;
+		width: 80%;
+		left: 50px;
+	}
+}
+	.wye{
+}(max-width:667px){
+		margin-top: 50px;
+	}
+}
+.tittle{
+	color:#e74c14;
+}
+.Services-box .card-header{
+	display: flex;
+	justify-content: center;
+	background-color: #eeeeee;
+}
+.Services-box .card{
+	border-radius: 20px;
+	background-color: #eeeeee;
+}
+.Services-box i{
+	font-size: 30px;
+	margin-top: 20px;
+	color: #e74c14;
+
+}
+.Services_icons{
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+	background-color: white;
+	border: 1px dashed black;
+	animation-name: ani;
+	animation-duration: 2s;
+
+}
+@keyframes ani{
+	0%{border-radius: 50%;}
+	10%{border-radius: 50% 25%;}
+	20%{border-radius: 50% 25% 50%}
+	30%{ border-radius: 50% 25% 50% 25% }
+	40%{}
+	50%{}
+	60%{}
+	70%{}
+	80%{}
+	90%{}
+	100%{}
+
+}
+.Purchesebutton{
+	background-color:#e74c14;
+	color: white;
+	border: none;
+	padding: 5px;
+
+}
+.overlay{
+	height: 100%;
+	width: 100%;
+	background-color:hsla(16,84%,49%,0.7);
+	position: absolute;
+	display: none;
+	padding: 10px;
+}
+.works .card:hover .overlay{
+	display: inline-block;
+}
+.icon_our{
+	font-size: 40px;
+	position: absolute;
+	top: 150px;
+	left: 130px;
+	color: white;
+}
+
+.body_part{
+	background-color: #f5f8f9;
+}
+
+.about-img{
+	height:400px;
+	width: 100%;
+}
+
+.overlay_team{
+	height: 40%;
+	width: 100%;
+	background-color:hsla(353, 15%, 32%,0.7);
+	position: absolute;
+	display: none;
+	top: 200px;
+	padding: 10px;
+}
+.team .card:hover .overlay_team{
+	display: inline-block;
+} 
+
+.overlay_team h2{
+	color: #ff6a18;
+}
+
+.overlay_team h6{
+	color:white;
+}
+
+@media (min-width:668px){
+.vid_img{
+	height: 400px;
+	width: 1050px; !not_importent;
+}
+
+@media (max-width:667px){
+.vid_img{
+	height: 400px;
+	width: 470px; !not_importent;
+}
+.overlay_vid{
+
+	height:100%;
+	width:900px;
+	background-color:hsla(16,84%,49%,0.5);
+	position: absolute;
+	display: none;
+/*	padding: 10px;*/
+}
+}
+
+.overlay_vid{
+
+	height:100%;
+	width: 100%;
+	background-color:hsla(16,84%,49%,0.5);
+	position: absolute;
+	display: none;
+	padding: 10px;
+}
+.team .card:hover .overlay_vid{
+	display: inline-block;
+}
+.icon_vid{
+font-size: 40px;
+	position: absolute;
+	top: 250px;
+	left:630px;
+	color: white;
+}
+
+.button{
+	color: #e74c14;
+	background-color: white;
+	border: solid 1px black;
+
+
+}
+		.Pricing_text{
+			color:#e74c14;
+			text-transform: uppercase;
+			text-align: center;
+			margin-top: 20px;
+		}
+		.Pricing_text1{
+			text-transform: uppercase;
+			text-align: center;
+		/*	margin-top: 20px;*/
+		}
+		.card_pricing{
+			background-color:#dddddd;
+
+		}
+		.Pricing_text2{
+			text-align: center;
+		}
+		.button_pricing{
+			margin-left: 50px;
+		}
+		.card_body_1{
+			background-color: black;
+		}
+		.button_pricing1{
+			margin-left: 80px;
+		}
+		.same_fun_icon{
+		font-size: 50px;
+		margin-left: 100px;
+		color:#e74c14 ;
+		}
+		.slider_img{
+			border-radius: 50px;
+			position: absolute;
+			top: 100px;
+		}
+		.slider{
+
+		.text_jpg{
+			color:#e74c14;
+			margin-top: 20px;
+		}
+
+		.Questions_1{
+			font-size: 10px;
+		}
+
+
+		.contact{
+		background-color: red;
+		}
